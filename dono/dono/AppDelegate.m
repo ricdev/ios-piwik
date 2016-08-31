@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PiwikTracker/PiwikTracker.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +15,17 @@
 
 @implementation AppDelegate
 
+// Piwik
+static NSString * const PiwikServerURL = @"http://localhost/path/to/piwik/";
+static NSString * const PiwikSiteID = @"2";
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Piwik: The website ID is available in Piwik web interface "Settings > Websites"
+    [PiwikTracker sharedInstanceWithSiteID:PiwikSiteID baseURL:[NSURL URLWithString:PiwikServerURL]];
+    
     return YES;
 }
 
@@ -36,6 +45,9 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
+    // Piwik: Print events to the console
+    [PiwikTracker sharedInstance].debug = YES;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
