@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A719711D769C2F001B5205 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A719701D769C2F001B5205 /* main.m */; };
+		18A719741D769C2F001B5205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A719731D769C2F001B5205 /* AppDelegate.m */; };
+		18A719771D769C2F001B5205 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A719761D769C2F001B5205 /* ViewController.m */; };
+		18A7197A1D769C2F001B5205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A719781D769C2F001B5205 /* Main.storyboard */; };
+		18A7197C1D769C2F001B5205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A7197B1D769C2F001B5205 /* Assets.xcassets */; };
+		18A7197F1D769C2F001B5205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7197D1D769C2F001B5205 /* LaunchScreen.storyboard */; };
+		18A7198A1D769C2F001B5205 /* donoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A719891D769C2F001B5205 /* donoTests.m */; };
+		18A719951D769C2F001B5205 /* donoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A719941D769C2F001B5205 /* donoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A719861D769C2F001B5205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A719641D769C2F001B5205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A7196B1D769C2F001B5205;
+			remoteInfo = dono;
+		};
+		18A719911D769C2F001B5205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A719641D769C2F001B5205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A7196B1D769C2F001B5205;
+			remoteInfo = dono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A7196C1D769C2F001B5205 /* dono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dono.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A719701D769C2F001B5205 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A719721D769C2F001B5205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A719731D769C2F001B5205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A719751D769C2F001B5205 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A719761D769C2F001B5205 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A719791D769C2F001B5205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A7197B1D769C2F001B5205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A7197E1D769C2F001B5205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A719801D769C2F001B5205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A719851D769C2F001B5205 /* donoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A719891D769C2F001B5205 /* donoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donoTests.m; sourceTree = "<group>"; };
+		18A7198B1D769C2F001B5205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A719901D769C2F001B5205 /* donoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A719941D769C2F001B5205 /* donoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donoUITests.m; sourceTree = "<group>"; };
+		18A719961D769C2F001B5205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A719691D769C2F001B5205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A719821D769C2F001B5205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7198D1D769C2F001B5205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A719631D769C2F001B5205 = {
+			isa = PBXGroup;
+			children = (
+				18A7196E1D769C2F001B5205 /* dono */,
+				18A719881D769C2F001B5205 /* donoTests */,
+				18A719931D769C2F001B5205 /* donoUITests */,
+				18A7196D1D769C2F001B5205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A7196D1D769C2F001B5205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A7196C1D769C2F001B5205 /* dono.app */,
+				18A719851D769C2F001B5205 /* donoTests.xctest */,
+				18A719901D769C2F001B5205 /* donoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A7196E1D769C2F001B5205 /* dono */ = {
+			isa = PBXGroup;
+			children = (
+				18A719721D769C2F001B5205 /* AppDelegate.h */,
+				18A719731D769C2F001B5205 /* AppDelegate.m */,
+				18A719751D769C2F001B5205 /* ViewController.h */,
+				18A719761D769C2F001B5205 /* ViewController.m */,
+				18A719781D769C2F001B5205 /* Main.storyboard */,
+				18A7197B1D769C2F001B5205 /* Assets.xcassets */,
+				18A7197D1D769C2F001B5205 /* LaunchScreen.storyboard */,
+				18A719801D769C2F001B5205 /* Info.plist */,
+				18A7196F1D769C2F001B5205 /* Supporting Files */,
+			);
+			path = dono;
+			sourceTree = "<group>";
+		};
+		18A7196F1D769C2F001B5205 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A719701D769C2F001B5205 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A719881D769C2F001B5205 /* donoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A719891D769C2F001B5205 /* donoTests.m */,
+				18A7198B1D769C2F001B5205 /* Info.plist */,
+			);
+			path = donoTests;
+			sourceTree = "<group>";
+		};
+		18A719931D769C2F001B5205 /* donoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A719941D769C2F001B5205 /* donoUITests.m */,
+				18A719961D769C2F001B5205 /* Info.plist */,
+			);
+			path = donoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A7196B1D769C2F001B5205 /* dono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A719991D769C2F001B5205 /* Build configuration list for PBXNativeTarget "dono" */;
+			buildPhases = (
+				18A719681D769C2F001B5205 /* Sources */,
+				18A719691D769C2F001B5205 /* Frameworks */,
+				18A7196A1D769C2F001B5205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dono;
+			productName = dono;
+			productReference = 18A7196C1D769C2F001B5205 /* dono.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A719841D769C2F001B5205 /* donoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7199C1D769C2F001B5205 /* Build configuration list for PBXNativeTarget "donoTests" */;
+			buildPhases = (
+				18A719811D769C2F001B5205 /* Sources */,
+				18A719821D769C2F001B5205 /* Frameworks */,
+				18A719831D769C2F001B5205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A719871D769C2F001B5205 /* PBXTargetDependency */,
+			);
+			name = donoTests;
+			productName = donoTests;
+			productReference = 18A719851D769C2F001B5205 /* donoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A7198F1D769C2F001B5205 /* donoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7199F1D769C2F001B5205 /* Build configuration list for PBXNativeTarget "donoUITests" */;
+			buildPhases = (
+				18A7198C1D769C2F001B5205 /* Sources */,
+				18A7198D1D769C2F001B5205 /* Frameworks */,
+				18A7198E1D769C2F001B5205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A719921D769C2F001B5205 /* PBXTargetDependency */,
+			);
+			name = donoUITests;
+			productName = donoUITests;
+			productReference = 18A719901D769C2F001B5205 /* donoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A719641D769C2F001B5205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rminfo;
+				TargetAttributes = {
+					18A7196B1D769C2F001B5205 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					18A719841D769C2F001B5205 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18A7196B1D769C2F001B5205;
+					};
+					18A7198F1D769C2F001B5205 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 18A7196B1D769C2F001B5205;
+					};
+				};
+			};
+			buildConfigurationList = 18A719671D769C2F001B5205 /* Build configuration list for PBXProject "dono" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A719631D769C2F001B5205;
+			productRefGroup = 18A7196D1D769C2F001B5205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A7196B1D769C2F001B5205 /* dono */,
+				18A719841D769C2F001B5205 /* donoTests */,
+				18A7198F1D769C2F001B5205 /* donoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A7196A1D769C2F001B5205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7197F1D769C2F001B5205 /* LaunchScreen.storyboard in Resources */,
+				18A7197C1D769C2F001B5205 /* Assets.xcassets in Resources */,
+				18A7197A1D769C2F001B5205 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A719831D769C2F001B5205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7198E1D769C2F001B5205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A719681D769C2F001B5205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A719771D769C2F001B5205 /* ViewController.m in Sources */,
+				18A719741D769C2F001B5205 /* AppDelegate.m in Sources */,
+				18A719711D769C2F001B5205 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A719811D769C2F001B5205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7198A1D769C2F001B5205 /* donoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7198C1D769C2F001B5205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A719951D769C2F001B5205 /* donoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A719871D769C2F001B5205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A7196B1D769C2F001B5205 /* dono */;
+			targetProxy = 18A719861D769C2F001B5205 /* PBXContainerItemProxy */;
+		};
+		18A719921D769C2F001B5205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A7196B1D769C2F001B5205 /* dono */;
+			targetProxy = 18A719911D769C2F001B5205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A719781D769C2F001B5205 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A719791D769C2F001B5205 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A7197D1D769C2F001B5205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A7197E1D769C2F001B5205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A719971D769C2F001B5205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18A719981D769C2F001B5205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A7199A1D769C2F001B5205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A7199B1D769C2F001B5205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dono/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dono;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A7199D1D769C2F001B5205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = donoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dono.app/dono";
+			};
+			name = Debug;
+		};
+		18A7199E1D769C2F001B5205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = donoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dono.app/dono";
+			};
+			name = Release;
+		};
+		18A719A01D769C2F001B5205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = donoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dono;
+			};
+			name = Debug;
+		};
+		18A719A11D769C2F001B5205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = donoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.donoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dono;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A719671D769C2F001B5205 /* Build configuration list for PBXProject "dono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A719971D769C2F001B5205 /* Debug */,
+				18A719981D769C2F001B5205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A719991D769C2F001B5205 /* Build configuration list for PBXNativeTarget "dono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7199A1D769C2F001B5205 /* Debug */,
+				18A7199B1D769C2F001B5205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A7199C1D769C2F001B5205 /* Build configuration list for PBXNativeTarget "donoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7199D1D769C2F001B5205 /* Debug */,
+				18A7199E1D769C2F001B5205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A7199F1D769C2F001B5205 /* Build configuration list for PBXNativeTarget "donoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A719A01D769C2F001B5205 /* Debug */,
+				18A719A11D769C2F001B5205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A719641D769C2F001B5205 /* Project object */;
+}
