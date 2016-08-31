@@ -6,6 +6,10 @@ target 'dono' do
   # use_frameworks!
 
   # Pods for dono
+  
+  # Piwik
+  pod 'PiwikTracker'
+  pod 'PiwikTracker/AFNetworking2'
 
   target 'donoTests' do
     inherit! :search_paths

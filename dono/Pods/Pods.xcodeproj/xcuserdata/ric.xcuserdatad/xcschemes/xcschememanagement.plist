@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PiwikTracker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-dono.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>10AB510516E23A7F2F6DCE60A27BDE0B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>39C0896A9270B49E6D5593884271AA5C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>3D02E952CDCEC95F0D050D8DB6B3AE24</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>85C800D7BF92F9574F885AD48BD12F3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F15954938B0AEE0D2467876EDC8686FF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
