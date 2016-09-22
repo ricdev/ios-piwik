@@ -16,8 +16,8 @@
 @implementation AppDelegate
 
 // Piwik
-static NSString * const PiwikServerURL = @"http://localhost/path/to/piwik/";
-static NSString * const PiwikSiteID = @"2";
+static NSString * const PiwikServerURL = @"http://7f0e7941.ngrok.io";
+static NSString * const PiwikSiteID = @"1";
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -25,6 +25,12 @@ static NSString * const PiwikSiteID = @"2";
     
     // Piwik: The website ID is available in Piwik web interface "Settings > Websites"
     [PiwikTracker sharedInstanceWithSiteID:PiwikSiteID baseURL:[NSURL URLWithString:PiwikServerURL]];
+    [PiwikTracker sharedInstance].debug = NO;
+    [PiwikTracker sharedInstance].dispatchInterval = 0;
+    [PiwikTracker sharedInstance].eventsPerRequest = 1;
+
+    //to set a user ID for the visitor
+    [[PiwikTracker sharedInstance] setUserID:@"John Smith"];
     
     return YES;
 }
@@ -47,7 +53,7 @@ static NSString * const PiwikSiteID = @"2";
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 
     // Piwik: Print events to the console
-    [PiwikTracker sharedInstance].debug = YES;
+    //[PiwikTracker sharedInstance].debug = YES; // No
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {

@@ -10,6 +10,12 @@ target 'dono' do
   # Piwik
   pod 'PiwikTracker'
   pod 'PiwikTracker/AFNetworking2'
+  
+  # Facebook
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+  
 
   target 'donoTests' do
     inherit! :search_paths
